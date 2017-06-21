@@ -1,0 +1,458 @@
+BCSymbolMap Version: 2.0
+-[JWTAlgorithmBaseDataHolder dataFromString:]
+-[JWTAlgorithmBaseDataHolder stringFromData:]
+-[JWTAlgorithmBaseDataHolder secretData:]
+-[JWTAlgorithmBaseDataHolder secret:]
+-[JWTAlgorithmBaseDataHolder algorithm:]
+-[JWTAlgorithmBaseDataHolder algorithmName:]
+-[JWTAlgorithmBaseDataHolder currentAlgorithmName]
+-[JWTAlgorithmBaseDataHolder currentSecret]
+-[JWTAlgorithmBaseDataHolder init]
+___34-[JWTAlgorithmBaseDataHolder init]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___34-[JWTAlgorithmBaseDataHolder init]_block_invoke.28
+___copy_helper_block_.31
+___destroy_helper_block_.32
+___34-[JWTAlgorithmBaseDataHolder init]_block_invoke.37
+___copy_helper_block_.40
+___destroy_helper_block_.41
+___34-[JWTAlgorithmBaseDataHolder init]_block_invoke.46
+___copy_helper_block_.49
+___destroy_helper_block_.50
+-[JWTAlgorithmBaseDataHolder secret]
+-[JWTAlgorithmBaseDataHolder setSecret:]
+-[JWTAlgorithmBaseDataHolder secretData]
+-[JWTAlgorithmBaseDataHolder setSecretData:]
+-[JWTAlgorithmBaseDataHolder algorithm]
+-[JWTAlgorithmBaseDataHolder setAlgorithm:]
+-[JWTAlgorithmBaseDataHolder algorithmName]
+-[JWTAlgorithmBaseDataHolder setAlgorithmName:]
+-[JWTAlgorithmBaseDataHolder .cxx_destruct]
+-[JWTAlgorithmRSFamilyDataHolder privateKeyCertificatePassphrase:]
+-[JWTAlgorithmRSFamilyDataHolder init]
+___38-[JWTAlgorithmRSFamilyDataHolder init]_block_invoke
+___copy_helper_block_.137
+___destroy_helper_block_.138
+-[JWTAlgorithmRSFamilyDataHolder currentPrivateKeyCertificatePassphrase]
+-[JWTAlgorithmRSFamilyDataHolder setCurrentPrivateKeyCertificatePassphrase:]
+-[JWTAlgorithmRSFamilyDataHolder privateKeyCertificatePassphrase]
+-[JWTAlgorithmRSFamilyDataHolder setPrivateKeyCertificatePassphrase:]
+-[JWTAlgorithmRSFamilyDataHolder .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp.34
+___block_descriptor_tmp.43
+___block_descriptor_tmp.51
+_OBJC_IVAR_$_JWTAlgorithmBaseDataHolder._secret
+_OBJC_IVAR_$_JWTAlgorithmBaseDataHolder._secretData
+_OBJC_IVAR_$_JWTAlgorithmBaseDataHolder._algorithm
+_OBJC_IVAR_$_JWTAlgorithmBaseDataHolder._algorithmName
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_JWTAlgorithmDataHolder
+l_OBJC_LABEL_PROTOCOL_$_JWTAlgorithmDataHolder
+___block_descriptor_tmp.140
+_OBJC_IVAR_$_JWTAlgorithmRSFamilyDataHolder._currentPrivateKeyCertificatePassphrase
+_OBJC_IVAR_$_JWTAlgorithmRSFamilyDataHolder._privateKeyCertificatePassphrase
+Apple LLVM version 8.1.0 (clang-802.0.42)
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Algorithms/Holders/JWTAlgorithmDataHolder.m
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Framework
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Algorithms/Holders/JWTAlgorithmDataHolder.h
+__destroy_helper_block_
+__copy_helper_block_
+__38-[JWTAlgorithmRSFamilyDataHolder init]_block_invoke
+__34-[JWTAlgorithmBaseDataHolder init]_block_invoke.46
+__34-[JWTAlgorithmBaseDataHolder init]_block_invoke.37
+__34-[JWTAlgorithmBaseDataHolder init]_block_invoke.28
+__34-[JWTAlgorithmBaseDataHolder init]_block_invoke
+-[JWTAlgorithmDataHolderChain holders]
+-[JWTAlgorithmDataHolderChain initWithHolders:]
+___47-[JWTAlgorithmDataHolderChain initWithHolders:]_block_invoke
+-[JWTAlgorithmDataHolderChain initWithHolder:]
+-[JWTAlgorithmDataHolderChain chainByAppendingChain:]
+-[JWTAlgorithmDataHolderChain chainByAppendingHolders:]
+-[JWTAlgorithmDataHolderChain chainByAppendingHolder:]
+-[JWTAlgorithmDataHolderChain setHolders:]
+-[JWTAlgorithmDataHolderChain .cxx_destruct]
+-[JWTAlgorithmDataHolderChain(Convenient) firstHolderByAlgorithm:]
+___66-[JWTAlgorithmDataHolderChain(Convenient) firstHolderByAlgorithm:]_block_invoke
+-[JWTAlgorithmDataHolderChain(Convenient) firstHolderBySecretData:]
+___67-[JWTAlgorithmDataHolderChain(Convenient) firstHolderBySecretData:]_block_invoke
+___copy_helper_block_.102
+___destroy_helper_block_.103
+-[JWTAlgorithmDataHolderChain(Convenient) singleAlgorithm:withManySecretData:]
+-[JWTAlgorithmDataHolderChain(Convenient) singleSecretData:withManyAlgorithms:]
+-[JWTAlgorithmDataHolderChain(Convenient) chainByPopulatingAlgorithm:withManySecretData:]
+-[JWTAlgorithmDataHolderChain(Convenient) chainByPopulatingSecretData:withManyAlgorithms:]
+_OBJC_IVAR_$_JWTAlgorithmDataHolderChain._holders
+l_OBJC_PROTOCOL_REFERENCE_$_JWTAlgorithmDataHolder
+___block_literal_global
+___block_descriptor_tmp.94
+___block_descriptor_tmp.104
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Algorithms/Holders/JWTAlgorithmDataHolderChain.m
+__67-[JWTAlgorithmDataHolderChain(Convenient) firstHolderBySecretData:]_block_invoke
+__66-[JWTAlgorithmDataHolderChain(Convenient) firstHolderByAlgorithm:]_block_invoke
+__47-[JWTAlgorithmDataHolderChain initWithHolders:]_block_invoke
++[JWT errorDescriptionsAndCodes]
++[JWT userDescriptionForErrorCode:]
++[JWT errorWithCode:]
++[JWT errorWithCode:withUserDescription:]
++[JWT encodeSegment:withError:]
++[JWT encodeSegment:]
++[JWT encodeClaimsSet:withSecret:]
++[JWT encodeClaimsSet:withSecret:algorithm:]
++[JWT encodePayload:withSecret:]
++[JWT encodePayload:withSecret:algorithm:]
++[JWT encodePayload:withSecret:withHeaders:algorithm:]
++[JWT encodePayload:withSecret:withHeaders:algorithm:withError:]
++[JWT decodeMessage:withSecret:withTrustedClaimsSet:withError:withForcedAlgorithmByName:]
++[JWT decodeMessage:withSecret:withTrustedClaimsSet:withError:withForcedOption:]
++[JWT decodeMessage:withSecret:withTrustedClaimsSet:withError:withForcedAlgorithmByName:withForcedOption:]
++[JWT decodeMessage:withSecret:withTrustedClaimsSet:withError:withForcedAlgorithmByName:withForcedOption:withAlgorithmWhiteList:]
++[JWT decodeMessage:withSecret:withError:withForcedOption:]
++[JWT decodeMessage:withSecret:withError:withForcedAlgorithmByName:]
++[JWT decodeMessage:withSecret:withError:withForcedAlgorithmByName:skipVerification:]
++[JWT decodeMessage:withSecret:withError:withForcedAlgorithmByName:skipVerification:whitelist:]
++[JWT decodeMessage:withSecret:withError:]
++[JWT decodeMessage:withSecret:]
++[JWT encodePayload:]
++[JWT encodeClaimsSet:]
++[JWT decodeMessage:]
+-[JWTBuilder jwtAlgorithm]
+-[JWTBuilder jwtPayload]
+-[JWTBuilder message:]
+-[JWTBuilder payload:]
+-[JWTBuilder headers:]
+-[JWTBuilder claimSet:]
+-[JWTBuilder secret:]
+-[JWTBuilder secretData:]
+-[JWTBuilder privateKeyCertificatePassphrase:]
+-[JWTBuilder algorithm:]
+-[JWTBuilder algorithmName:]
+-[JWTBuilder options:]
+-[JWTBuilder whitelist:]
+-[JWTBuilder addDataHolder:]
++[JWTBuilder encodePayload:]
++[JWTBuilder encodeClaimsSet:]
++[JWTBuilder decodeMessage:]
+-[JWTBuilder init]
+___18-[JWTBuilder init]_block_invoke
+___18-[JWTBuilder init]_block_invoke.211
+___copy_helper_block_.214
+___destroy_helper_block_.215
+___18-[JWTBuilder init]_block_invoke.220
+___copy_helper_block_.223
+___destroy_helper_block_.224
+___18-[JWTBuilder init]_block_invoke.228
+___copy_helper_block_.231
+___destroy_helper_block_.232
+___18-[JWTBuilder init]_block_invoke.237
+___copy_helper_block_.240
+___destroy_helper_block_.241
+___18-[JWTBuilder init]_block_invoke.245
+___copy_helper_block_.248
+___destroy_helper_block_.249
+___18-[JWTBuilder init]_block_invoke.254
+___copy_helper_block_.257
+___destroy_helper_block_.258
+___18-[JWTBuilder init]_block_invoke.262
+___copy_helper_block_.265
+___destroy_helper_block_.266
+___18-[JWTBuilder init]_block_invoke.271
+___copy_helper_block_.274
+___destroy_helper_block_.275
+___18-[JWTBuilder init]_block_invoke.279
+___copy_helper_block_.282
+___destroy_helper_block_.283
+___18-[JWTBuilder init]_block_invoke.288
+___copy_helper_block_.291
+___destroy_helper_block_.292
+___18-[JWTBuilder init]_block_invoke.297
+___copy_helper_block_.300
+___destroy_helper_block_.301
+___18-[JWTBuilder init]_block_invoke.306
+___copy_helper_block_.307
+___destroy_helper_block_.308
+-[JWTBuilder encode]
+-[JWTBuilder decode]
+-[JWTBuilder encodeHelper]
+-[JWTBuilder encodeSegment:withError:]
+-[JWTBuilder decodeHelper]
+-[JWTBuilder decodeMessage:withSecret:withSecretData:withError:withForcedAlgorithmByName:skipVerification:]
+-[JWTBuilder decodeMessage:withSecret:withSecretData:withError:withForcedAlgorithmByName:skipVerification:whitelist:]
+-[JWTBuilder jwtMessage]
+-[JWTBuilder setJwtMessage:]
+-[JWTBuilder jwtHeaders]
+-[JWTBuilder setJwtHeaders:]
+-[JWTBuilder jwtClaimsSet]
+-[JWTBuilder setJwtClaimsSet:]
+-[JWTBuilder jwtDataHolders]
+-[JWTBuilder setJwtDataHolders:]
+-[JWTBuilder jwtSecret]
+-[JWTBuilder setJwtSecret:]
+-[JWTBuilder jwtSecretData]
+-[JWTBuilder setJwtSecretData:]
+-[JWTBuilder jwtPrivateKeyCertificatePassphrase]
+-[JWTBuilder setJwtPrivateKeyCertificatePassphrase:]
+-[JWTBuilder jwtError]
+-[JWTBuilder setJwtError:]
+-[JWTBuilder jwtAlgorithmName]
+-[JWTBuilder setJwtAlgorithmName:]
+-[JWTBuilder jwtOptions]
+-[JWTBuilder setJwtOptions:]
+-[JWTBuilder algorithmWhitelist]
+-[JWTBuilder setAlgorithmWhitelist:]
+-[JWTBuilder message]
+-[JWTBuilder setMessage:]
+-[JWTBuilder payload]
+-[JWTBuilder setPayload:]
+-[JWTBuilder headers]
+-[JWTBuilder setHeaders:]
+-[JWTBuilder claimsSet]
+-[JWTBuilder setClaimsSet:]
+-[JWTBuilder secret]
+-[JWTBuilder setSecret:]
+-[JWTBuilder secretData]
+-[JWTBuilder setSecretData:]
+-[JWTBuilder privateKeyCertificatePassphrase]
+-[JWTBuilder setPrivateKeyCertificatePassphrase:]
+-[JWTBuilder algorithm]
+-[JWTBuilder setAlgorithm:]
+-[JWTBuilder algorithmName]
+-[JWTBuilder setAlgorithmName:]
+-[JWTBuilder options]
+-[JWTBuilder setOptions:]
+-[JWTBuilder whitelist]
+-[JWTBuilder setWhitelist:]
+-[JWTBuilder addDataHolder]
+-[JWTBuilder setAddDataHolder:]
+-[JWTBuilder constructDataHolder]
+-[JWTBuilder setConstructDataHolder:]
+-[JWTBuilder setJwtPayload:]
+-[JWTBuilder setJwtAlgorithm:]
+-[JWTBuilder .cxx_destruct]
+_errorDescriptionsAndCodes.dictionary
+_OBJC_IVAR_$_JWTBuilder._jwtAlgorithm
+_OBJC_IVAR_$_JWTBuilder._jwtAlgorithmName
+_OBJC_IVAR_$_JWTBuilder._jwtClaimsSet
+_OBJC_IVAR_$_JWTBuilder._jwtPayload
+___block_descriptor_tmp.217
+___block_descriptor_tmp.225
+___block_descriptor_tmp.234
+___block_descriptor_tmp.242
+___block_descriptor_tmp.251
+___block_descriptor_tmp.259
+___block_descriptor_tmp.268
+___block_descriptor_tmp.276
+___block_descriptor_tmp.285
+___block_descriptor_tmp.294
+___block_descriptor_tmp.303
+___block_descriptor_tmp.310
+l_OBJC_PROTOCOL_$_JWTAlgorithm
+l_OBJC_LABEL_PROTOCOL_$_JWTAlgorithm
+l_OBJC_PROTOCOL_$_JWTRSAlgorithm
+l_OBJC_LABEL_PROTOCOL_$_JWTRSAlgorithm
+l_OBJC_PROTOCOL_REFERENCE_$_JWTRSAlgorithm
+_OBJC_IVAR_$_JWTBuilder._jwtMessage
+_OBJC_IVAR_$_JWTBuilder._jwtHeaders
+_OBJC_IVAR_$_JWTBuilder._jwtDataHolders
+_OBJC_IVAR_$_JWTBuilder._jwtSecret
+_OBJC_IVAR_$_JWTBuilder._jwtSecretData
+_OBJC_IVAR_$_JWTBuilder._jwtPrivateKeyCertificatePassphrase
+_OBJC_IVAR_$_JWTBuilder._jwtError
+_OBJC_IVAR_$_JWTBuilder._jwtOptions
+_OBJC_IVAR_$_JWTBuilder._algorithmWhitelist
+_OBJC_IVAR_$_JWTBuilder._message
+_OBJC_IVAR_$_JWTBuilder._payload
+_OBJC_IVAR_$_JWTBuilder._headers
+_OBJC_IVAR_$_JWTBuilder._claimsSet
+_OBJC_IVAR_$_JWTBuilder._secret
+_OBJC_IVAR_$_JWTBuilder._secretData
+_OBJC_IVAR_$_JWTBuilder._privateKeyCertificatePassphrase
+_OBJC_IVAR_$_JWTBuilder._algorithm
+_OBJC_IVAR_$_JWTBuilder._algorithmName
+_OBJC_IVAR_$_JWTBuilder._options
+_OBJC_IVAR_$_JWTBuilder._whitelist
+_OBJC_IVAR_$_JWTBuilder._addDataHolder
+_OBJC_IVAR_$_JWTBuilder._constructDataHolder
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Coding/JWTCoding.m
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Coding/JWTCoding.h
+__18-[JWTBuilder init]_block_invoke.306
+__18-[JWTBuilder init]_block_invoke.297
+__18-[JWTBuilder init]_block_invoke.288
+__18-[JWTBuilder init]_block_invoke.279
+__18-[JWTBuilder init]_block_invoke.271
+__18-[JWTBuilder init]_block_invoke.262
+__18-[JWTBuilder init]_block_invoke.254
+__18-[JWTBuilder init]_block_invoke.245
+__18-[JWTBuilder init]_block_invoke.237
+__18-[JWTBuilder init]_block_invoke.228
+__18-[JWTBuilder init]_block_invoke.220
+__18-[JWTBuilder init]_block_invoke.211
+__18-[JWTBuilder init]_block_invoke
++[JWTAlgorithmFactory algorithms]
++[JWTAlgorithmFactory algorithmByName:]
+___39+[JWTAlgorithmFactory algorithmByName:]_block_invoke
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Algorithms/Base/JWTAlgorithmFactory.m
+__39+[JWTAlgorithmFactory algorithmByName:]_block_invoke
+-[JWTAlgorithmNone name]
+-[JWTAlgorithmNone encodePayload:withSecret:]
+-[JWTAlgorithmNone encodePayloadData:withSecret:]
+-[JWTAlgorithmNone verifySignedInput:withSignature:verificationKey:]
+-[JWTAlgorithmNone verifySignedInput:withSignature:verificationKeyData:]
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Algorithms/Base/JWTAlgorithmNone.m
+-[JWTAlgorithmHS256 ccSHANumberDigestLength]
+-[JWTAlgorithmHS256 ccHmacAlgSHANumber]
+-[JWTAlgorithmHS256 name]
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Algorithms/HSFamily/JWTAlgorithmHS256.m
+-[JWTAlgorithmHS384 ccSHANumberDigestLength]
+-[JWTAlgorithmHS384 ccHmacAlgSHANumber]
+-[JWTAlgorithmHS384 name]
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Algorithms/HSFamily/JWTAlgorithmHS384.m
+-[JWTAlgorithmHS512 ccSHANumberDigestLength]
+-[JWTAlgorithmHS512 ccHmacAlgSHANumber]
+-[JWTAlgorithmHS512 name]
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Algorithms/HSFamily/JWTAlgorithmHS512.m
+-[JWTAlgorithmHSBase ccSHANumberDigestLength]
+-[JWTAlgorithmHSBase ccHmacAlgSHANumber]
+-[JWTAlgorithmHSBase name]
+-[JWTAlgorithmHSBase encodePayload:withSecret:]
+-[JWTAlgorithmHSBase encodePayloadData:withSecret:]
+-[JWTAlgorithmHSBase verifySignedInput:withSignature:verificationKey:]
+-[JWTAlgorithmHSBase verifySignedInput:withSignature:verificationKeyData:]
+-[JWTAlgorithmHSFamilyMemberMutable ccSHANumberDigestLength]
+-[JWTAlgorithmHSFamilyMemberMutable ccHmacAlgSHANumber]
+-[JWTAlgorithmHSFamilyMemberMutable setCcSHANumberDigestLength:]
+-[JWTAlgorithmHSFamilyMemberMutable setCcHmacAlgSHANumber:]
+-[JWTAlgorithmHSFamilyMemberMutable name]
+-[JWTAlgorithmHSFamilyMemberMutable setName:]
+-[JWTAlgorithmHSFamilyMemberMutable .cxx_destruct]
++[JWTAlgorithmHSBase(Create) algorithm256]
++[JWTAlgorithmHSBase(Create) algorithm384]
++[JWTAlgorithmHSBase(Create) algorithm512]
+_OBJC_IVAR_$_JWTAlgorithmHSFamilyMemberMutable._ccSHANumberDigestLength
+_OBJC_IVAR_$_JWTAlgorithmHSFamilyMemberMutable._ccHmacAlgSHANumber
+_OBJC_IVAR_$_JWTAlgorithmHSFamilyMemberMutable._name
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Algorithms/HSFamily/JWTAlgorithmHSBase.m
++[JWTBase64Coder(ConditionLinking) isBase64AddtionsAvailable]
++[JWTBase64Coder base64UrlEncodedStringWithData:]
++[JWTBase64Coder dataWithBase64UrlEncodedString:]
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Supplement/JWTBase64Coder.m
+-[JWTAlgorithmRSBase ccSHANumberDigestLength]
+-[JWTAlgorithmRSBase secPaddingPKCS1SHANumber]
+-[JWTAlgorithmRSBase CC_SHANumberWithData:withLength:withHashBytes:]
+-[JWTAlgorithmRSBase name]
+-[JWTAlgorithmRSBase encodePayload:withSecret:]
+-[JWTAlgorithmRSBase encodePayloadData:withSecret:]
+-[JWTAlgorithmRSBase verifySignedInput:withSignature:verificationKey:]
+-[JWTAlgorithmRSBase verifySignedInput:withSignature:verificationKeyData:]
+-[JWTAlgorithmRSBase PKCSVerifyBytesSHANumberWithRSA:witSignature:withPublicKey:]
+-[JWTAlgorithmRSBase PKCSSignBytesSHANumberwithRSA:withPrivateKey:]
+-[JWTAlgorithmRSBase publicKeyFromCertificate:]
+-[JWTAlgorithmRSBase privateKeyCertificatePassphrase]
+-[JWTAlgorithmRSBase setPrivateKeyCertificatePassphrase:]
+-[JWTAlgorithmRSBase .cxx_destruct]
+-[JWTAlgorithmRSBaseIOS PKCSVerifyBytesSHANumberWithRSA:witSignature:withPublicKey:]
+-[JWTAlgorithmRSBaseIOS PKCSSignBytesSHANumberwithRSA:withPrivateKey:]
+-[JWTAlgorithmRSFamilyMember secPaddingPKCS1SHANumber]
+-[JWTAlgorithmRS256 ccSHANumberDigestLength]
+-[JWTAlgorithmRS256 secPaddingPKCS1SHANumber]
+-[JWTAlgorithmRS256 CC_SHANumberWithData:withLength:withHashBytes:]
+-[JWTAlgorithmRS256 name]
+-[JWTAlgorithmRS384 ccSHANumberDigestLength]
+-[JWTAlgorithmRS384 secPaddingPKCS1SHANumber]
+-[JWTAlgorithmRS384 CC_SHANumberWithData:withLength:withHashBytes:]
+-[JWTAlgorithmRS384 name]
+-[JWTAlgorithmRS512 ccSHANumberDigestLength]
+-[JWTAlgorithmRS512 secPaddingPKCS1SHANumber]
+-[JWTAlgorithmRS512 CC_SHANumberWithData:withLength:withHashBytes:]
+-[JWTAlgorithmRS512 name]
+-[JWTAlgorithmRSFamilyMemberMutable ccSHANumberDigestLength]
+-[JWTAlgorithmRSFamilyMemberMutable secPaddingPKCS1SHANumber]
+-[JWTAlgorithmRSFamilyMemberMutable CC_SHANumberWithData:withLength:withHashBytes:]
+-[JWTAlgorithmRSFamilyMemberMutable setCcSHANumberDigestLength:]
+-[JWTAlgorithmRSFamilyMemberMutable setSecPaddingPKCS1SHANumber:]
+-[JWTAlgorithmRSFamilyMemberMutable name]
+-[JWTAlgorithmRSFamilyMemberMutable setName:]
+-[JWTAlgorithmRSFamilyMemberMutable ccShaNumberWithData]
+-[JWTAlgorithmRSFamilyMemberMutable setCcShaNumberWithData:]
+-[JWTAlgorithmRSFamilyMemberMutable .cxx_destruct]
++[JWTAlgorithmRSBase(Create) algorithm256]
++[JWTAlgorithmRSBase(Create) algorithm384]
++[JWTAlgorithmRSBase(Create) algorithm512]
++[JWTAlgorithmRSBase(Create) mutableAlgorithm]
+___46+[JWTAlgorithmRSBase(Create) mutableAlgorithm]_block_invoke
+_OBJC_IVAR_$_JWTAlgorithmRSBase.privateKeyCertificatePassphrase
+_OBJC_IVAR_$_JWTAlgorithmRSFamilyMemberMutable._ccSHANumberDigestLength
+_OBJC_IVAR_$_JWTAlgorithmRSFamilyMemberMutable._secPaddingPKCS1SHANumber
+_OBJC_IVAR_$_JWTAlgorithmRSFamilyMemberMutable._name
+_OBJC_IVAR_$_JWTAlgorithmRSFamilyMemberMutable._ccShaNumberWithData
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Algorithms/RSFamily/JWTAlgorithmRSBase.m
+__46+[JWTAlgorithmRSBase(Create) mutableAlgorithm]_block_invoke
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/Algorithms/RSFamily/JWTRSAlgorithm.h
+__extractIdentityAndTrust
++[JWTClaimIssuer name]
++[JWTClaimIssuer verifyValue:withTrustedValue:]
++[JWTClaimSubject name]
++[JWTClaimSubject verifyValue:withTrustedValue:]
++[JWTClaimAudience name]
++[JWTClaimAudience verifyValue:withTrustedValue:]
++[JWTClaimExpirationTime name]
++[JWTClaimExpirationTime verifyValue:withTrustedValue:]
++[JWTClaimNotBefore name]
++[JWTClaimNotBefore verifyValue:withTrustedValue:]
++[JWTClaimIssuedAt name]
++[JWTClaimIssuedAt verifyValue:withTrustedValue:]
++[JWTClaimJWTID name]
++[JWTClaimJWTID verifyValue:withTrustedValue:]
++[JWTClaimType name]
++[JWTClaimType verifyValue:withTrustedValue:]
++[JWTClaim name]
++[JWTClaim claimsAndNames]
++[JWTClaim claimByName:]
++[JWTClaim verifyValue:withTrustedValue:]
+-[JWTClaim verifyValue:withTrustedValue:]
+_claimsAndNames.dictionary
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/ClaimSet/JWTClaim.m
+-[JWTClaimsSet copyWithZone:]
+-[JWTClaimsSet issuer]
+-[JWTClaimsSet setIssuer:]
+-[JWTClaimsSet subject]
+-[JWTClaimsSet setSubject:]
+-[JWTClaimsSet audience]
+-[JWTClaimsSet setAudience:]
+-[JWTClaimsSet expirationDate]
+-[JWTClaimsSet setExpirationDate:]
+-[JWTClaimsSet notBeforeDate]
+-[JWTClaimsSet setNotBeforeDate:]
+-[JWTClaimsSet issuedAt]
+-[JWTClaimsSet setIssuedAt:]
+-[JWTClaimsSet identifier]
+-[JWTClaimsSet setIdentifier:]
+-[JWTClaimsSet type]
+-[JWTClaimsSet setType:]
+-[JWTClaimsSet .cxx_destruct]
+_OBJC_IVAR_$_JWTClaimsSet._issuer
+_OBJC_IVAR_$_JWTClaimsSet._subject
+_OBJC_IVAR_$_JWTClaimsSet._audience
+_OBJC_IVAR_$_JWTClaimsSet._expirationDate
+_OBJC_IVAR_$_JWTClaimsSet._notBeforeDate
+_OBJC_IVAR_$_JWTClaimsSet._issuedAt
+_OBJC_IVAR_$_JWTClaimsSet._identifier
+_OBJC_IVAR_$_JWTClaimsSet._type
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/ClaimSet/JWTClaimsSet.m
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/ClaimSet/JWTClaimsSet.h
++[JWTClaimsSetSerializer claimsSetKeys]
++[JWTClaimsSetSerializer dictionaryWithClaimsSet:]
++[JWTClaimsSetSerializer claimsSetWithDictionary:]
++[JWTClaimsSetSerializer dictionary:setObjectIfNotNil:forKey:]
++[JWTClaimsSetSerializer dictionary:setDateIfNotNil:forKey:]
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/ClaimSet/JWTClaimsSetSerializer.m
++[JWTClaimsSetVerifier verifyDictionary:withTrustedDictionary:byKey:]
++[JWTClaimsSetVerifier verifyClaimsSetDictionary:withTrustedClaimsSetDictionary:]
++[JWTClaimsSetVerifier verifyClaimsSet:withTrustedClaimsSet:]
++[JWTClaimsSetVerifier verifyClaimsSetDictionary:withTrustedClaimsSet:]
+/Users/kirthikavijayakumar/Desktop/AuthenticationLibrary/Carthage/Checkouts/JWT/Classes/ClaimSet/JWTClaimsSetVerifier.m
+/Users/kirthikavijayakumar/Library/Caches/org.carthage.CarthageKit/DerivedData/JWT/2.2.0/Build/Intermediates/JWT.build/Release-iphoneos/JWT_iOS_Framework.build/DerivedSources/JWT_iOS_Framework_vers.c
