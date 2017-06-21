@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>domain</key>
+	<string>https://login.microsoftonline.com</string>
+	<key>tenant</key>
+	<string>/cd786c48-dafb-41d1-acbf-d4ee777adf02</string>
+	<key>oauth</key>
+	<string>/oauth2/v2.0</string>
+	<key>authorize</key>
+	<string>/authorize</string>
+	<key>token</key>
+	<string>/token</string>
+	<key>policy</key>
+	<string>B2C_1_SignupOrSigninToyota</string>
+	<key>policyLexus</key>
+	<string>B2C_1_SignupOrSigninLexus</string>
+	<key>policyReset</key>
+	<string>B2C_1_PasswordResetToyota</string>
+	<key>policyResetLexus</key>
+	<string>B2C_1_PasswordResetLexus</string>
+	<key>clientId</key>
+	<string>df15ce4f-f1f1-4c90-956c-299e5fd9feae</string>
+	<key>redirectUri</key>
+	<string>urn:ietf:wg:oauth:2.0:oob</string>
+	<key>scope</key>
+	<string>openid offline_access</string>
+	<key>scopeIdRefresh</key>
+	<string>openid offline_access</string>
+	<key>scopeAccess</key>
+	<string>https://rtb2cdev.onmicrosoft.com/</string>
+	<key>responseType</key>
+	<string>code</string>
+	<key>responseMode</key>
+	<string>query</string>
+	<key>prompt</key>
+	<string>login</string>
+	<key>grantType</key>
+	<string>authorization_code</string>
+	<key>keysExtension</key>
+	<string>/discovery/v2.0/keys?p=</string>
+	<key>invalidTokenErrorMsg</key>
+	<string>Your credentials could not be verified at this time. Please try again later.</string>
+	<key>grantTypeRefresh</key>
+	<string>refresh_token</string>
+</dict>
+</plist>
